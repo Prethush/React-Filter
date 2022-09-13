@@ -104,7 +104,6 @@ const Filter = () => {
           stagesArr
         )}&&status=${JSON.stringify(statusArr)}`
       );
-      console.log(response.data);
       setTableData(response.data.data);
     };
     fetchData();
